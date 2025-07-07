@@ -78,12 +78,11 @@ export default function Index() {
           <div className="absolute inset-0 bg-grid-slate-200/50 [mask-image:linear-gradient(to bottom,rgba(255,255,255,0.0),white 30%,white 70%,rgba(255,255,255,0.0)),linear-gradient(to right,rgba(255,255,255,0.0),white 20%,white 80%,rgba(255,255,255,0.0))] -z-10"></div>
           <div className="container mx-auto px-6">
             <div className="text-center max-w-4xl mx-auto">
-              <Badge variant="secondary" className="mb-6">
-                🚀 Welcome to the Future of Hiring
-              </Badge>
               <h1 className="text-4xl md:text-6xl font-bold text-slate-900 mb-6 leading-tight">
-                Connect Talent with{" "}
-                <span className="bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
+                <span className="block text-5xl md:text-8xl font-extrabold leading-tight bg-gradient-to-r from-blue-400  to-blue-700 bg-clip-text text-transparent mb-2">
+                  Connect Talent with
+                </span>
+                <span className="block text-5xl md:text-8xl font-extrabold leading-tight bg-gradient-to-r from-blue-400  to-blue-700 bg-clip-text text-transparent">
                   Opportunity
                 </span>
               </h1>
